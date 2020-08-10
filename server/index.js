@@ -8,7 +8,7 @@ var io = require('socket.io')(server);
 app.use(express.static('client'));
 
 app.get('/chat', function(req, res) {
-    res.status(200).send('El chat funciona en http://192.168.1.130:6677');
+    res.status(200).send('El chat funciona en http://192.168.1.132:6677');
 });
 
 var messages = [{
